@@ -8,7 +8,7 @@ using UserService.Data;
 using UserService.Helpers;
 using UserService.RabbitMQ;
 using UserService.Validators;
-//
+
 JwtSecurityTokenHandler.DefaultInboundClaimTypeMap.Clear();
 
 var builder = WebApplication.CreateBuilder(args);
